@@ -1,0 +1,62 @@
+<header class="cabecera">
+  <div class="navegacion container">
+     <a routerLink="/inicio" routerLinkActive="active-link" class="link_logo"><img src="assets/img/logo2.png" width="138px" height="140px" class="logo"></a>
+ <nav class="menu">
+     <ul>
+         <li id="lista1" value="1" class="lista activada" (click)="active_Link()">
+             <a routerLink="/inicio" routerLinkActive="active-link">
+             <span class="icono">
+              <i class="fa-solid fa-house icono2"></i>
+             </span>
+             <span class="texto">Inicio22</span>
+             </a>
+         </li>
+         <li id="lista2" value="2" class="lista" (click)="active_Link2()">
+             <a routerLink="/perfil" routerLinkActive="active-link">
+             <span class="icono">
+              <i class="fa-solid fa-address-card icono2"></i>
+             </span>
+             <span class="texto">Perfil</span>
+             </a>
+         </li>
+         <li id="lista3" value="3" class="lista" (click)="active_Link3()">
+             <a routerLink="/mensajes" routerLinkActive="active-link">
+             <span class="icono">
+              <i class="fa-solid fa-message icono2"></i>
+             </span>
+             <span class="texto">Mensajes</span>
+             </a>
+         </li>
+         <li id="lista4" value="4" class="lista" (click)="active_Link4()">
+             <a routerLink="/habilidades" routerLinkActive="active-link">
+             <span class="icono">
+              <i class="fa-solid fa-network-wired icono2"></i>
+             </span>
+             <span class="texto">Habilidades</span>
+             </a>
+         </li>
+         <li id="lista5" value="5" class="lista" (click)="active_Link5()">
+             <a routerLink="/contacto" routerLinkActive="active-link">
+             <span class="icono">
+              <i class="fa-solid fa-id-card-clip icono2"></i>
+             </span>
+             <span class="texto" >Contacto</span>
+             </a>
+         </li>
+         <div class="indicador"></div>
+     </ul>
+ </nav>
+  </div>
+ </header>
+
+
+ <script>
+  const lista=document.querySelectorAll('.lista');
+  function activeLink(){
+      lista.forEach((item)=>
+      item.classList.remove('activada'));
+      this.classList.add('activada');
+  }
+  lista.forEach((item)=>
+  item.addEventListener('click',activeLink));
+</script>

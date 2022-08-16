@@ -1,0 +1,140 @@
+
+
+:root{
+  --color-esqueleto:#916BBF;
+  --clr: #1C0C5B;
+  --clr-navbar: #F5F0BB;
+  --clr-icon: #916BBF;
+  --color-cuerpo: #3D2C8D;
+}
+
+
+/***************************************************/
+/***************************************************/
+/***************************************************/
+header{
+
+  background-color: var(--color-esqueleto);
+}
+nav a{
+
+  margin: 0 7.5px;  /* para poder centrar los container*/
+  height: 100px;
+
+}
+div{
+  display: block;
+}
+.container{
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;  /* para poder centrar los container*/
+}
+
+.cabecera
+{
+  padding: 35px 0;
+  background: var(--clr);
+}
+
+.cabecera .menu
+{
+  display: inline-block;
+}
+.cabecera .link_logo
+{
+  display: inline-block;
+  vertical-align: middle;
+  background: var(--clr-navbar);
+  border-radius: 50%;
+  transform: translateY(calc(-30px));
+
+}
+.columna
+{
+  /*background: var(--clr-navbar);*/
+}
+
+#skill .container
+{
+
+}
+
+.columna .div_skill1
+{
+  /*
+  background: var(--clr);
+  */
+
+  display: flex;
+  width: auto;
+  background: url(../../../../assets/img/frontend.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*
+  background-attachment: fixed;/*dejo la imagen fija*/
+}
+
+.icono2
+{
+  color: var( --color-esqueleto);
+
+}
+
+.columna .div_skill2
+{
+  /*
+  background: var(--clr-icon);
+  */
+
+  display: flex;
+  width: auto;
+  background: url(../../../../assets/img/backend.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*
+  background-attachment: fixed;/*dejo la imagen fija*/
+
+
+}
+
+
+
+
+.button{
+
+text-decoration: none;  /* saca subrayado*/
+font-size: 25px; /*tamaño*/
+color: blueviolet;
+padding: 20px 50px;
+border: 3px solid;
+position: relative;
+}
+
+.button::before,
+.button::after{
+content: "";
+position: absolute;
+width: 40px;
+height: 40px;
+border: inherit;
+transition: all .5s;
+}
+
+.button::before{
+top: -15px;
+left: -15px;
+border-width: 3px 0 0 3px;
+}
+
+.button::after{
+bottom: -15px;
+right: -15px;
+border-width: 0 3px 3px 0;
+}
+
+.button:hover::before,
+.button:hover::after{
+width: calc(100% + 27px);
+height: calc(100% + 27px);
+}
