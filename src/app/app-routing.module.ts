@@ -13,7 +13,7 @@ const routes: Routes = [
   {path: 'contacto', component: ContactoComponent},
   {path: 'perfil', component: PerfilComponent},
   {path: 'habilidades', component: HabilidadesComponent},
-  {path: 'mensaje', component: MensajesComponent},
+  {path: 'mensajes', component: MensajesComponent},
   {path: '**', component: PagenotfoundComponent}
 ];
 
