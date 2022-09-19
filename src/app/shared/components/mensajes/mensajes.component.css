@@ -176,7 +176,7 @@
 .apps__ind {
   border: 1px solid var(--black);
   border-radius: 10px;
-  background-color: var(--menu-color);
+  background-color: var(--main-text-color);
   padding: 20px;
   margin: 10px;
   max-height: 150px;

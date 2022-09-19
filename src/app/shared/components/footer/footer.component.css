@@ -2,7 +2,7 @@
 
 footer{
   width: 100%;
-  padding: 50px 0px;
+  padding: 20px 0px;
   background: var(--clr-navbar);
   /*background-image: url(../../../../assets/img/backend.jpg);
   background-size: cover;
@@ -20,7 +20,7 @@ footer{
   justify-content: space-between;
   max-width: 1200px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 5px;
 }
 
 .box__footer{

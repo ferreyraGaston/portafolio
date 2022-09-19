@@ -142,7 +142,7 @@
 }
 .icon {
   max-height: 70px;
-  margin: 10px;
+  margin: 40px;
 }
 @media screen and (max-width: 915px) {
   .subtitle {
