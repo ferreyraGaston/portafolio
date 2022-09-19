@@ -78,3 +78,32 @@ footer{
   height: 1px;
   background-color: #7a7a7a;
 }
+@media screen and (max-width: 1120px) {
+
+  .container__footer{
+    display: block;
+
+  }
+  .box__footer{
+    align-items: center;
+  }
+
+}
+@media screen and (max-width: 615px) {
+
+  .container__footer{
+    display: block;
+  }
+  .box__footer{
+    align-items: center;
+  }
+}
+@media screen and (max-width: 480px) {
+
+  .container__footer{
+    display: block;
+  }
+  .box__footer{
+    align-items: center;
+  }
+}
