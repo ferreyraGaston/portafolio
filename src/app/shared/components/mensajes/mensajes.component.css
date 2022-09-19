@@ -1,3 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.no-underline {
+  text-decoration: none;
+}
+
+
+
+
+
 .main {
   grid-column: 2/-1;
 }
@@ -47,13 +59,30 @@
 .links {
   grid-column: 1/-1;
   text-align: center;
-  margin-top: auto;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .link__ico {
   height: 70px;
   width: 70px;
+  padding: 10px;
 }
+.ico1:hover {
+  height: 80px;
+  width: 180px;
+  padding: 0px;
+}
+.ico2:hover {
+  height: 80px;
+  width: 180px;
+  padding: 0px;
+}
+.ico3:hover {
+  height: 80px;
+  width: 180px;
+  padding: 0px;
+}
+
 @keyframes typing {
   from {
     width: 0
@@ -122,6 +151,7 @@
 
 
 
+
 .projects {
   height: auto;
 }
@@ -163,6 +193,7 @@
 .ind-description {
   text-align: justify;
   font-size: 18px;
+  color: var(--clr);
 }
 .app__image {
   width: 40%;
@@ -210,3 +241,31 @@
   }
 }
 
+
+
+.about {
+  height: auto;
+}
+.subtitle {
+  font-size: 24px;
+}
+.about__info {
+  margin: 30px;
+}
+.icon {
+  max-height: 70px;
+  margin: 10px;
+}
+@media screen and (max-width: 915px) {
+  .subtitle {
+      font-size: 22px;
+  }
+  .about {
+      margin-bottom: 15vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .subtitle {
+      font-size: 18px;
+  }
+}
