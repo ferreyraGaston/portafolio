@@ -1,143 +1,134 @@
-<main>
-  <section id="perfil">
-      <div class="container">
-          <div class="fila">
-              <div class="columna">
-              <h1>Ferreyra Gastón</h1>
-              <br><br><br>
-              <a href="#" class="button">Descargar Perfil</a>
+<div class="grid">
+
+  <!-- Information -->
+  <section class="main">
+      <!-- Home -->
+      <div class="grid home">
+          <!-- General -->
+          <div class="general">
+              <p class="general__greet">Mi nombre es</p>
+              <div class="wrapper">
+                  <div class="typing-demo">
+                    <p>Ferreyra Castro Gastón..</p>
+                  </div>
+              </div>
+              <p class="general__career">Estudiante de Desarrollo de Software y Desarrolo web.</p>
+              <p class="general__description">
+                Soy desarrollador de software y me pasatiempos es la electronica.
+                Durante mucho tiempo vengo capacitando e incorporando tecnologias nuevas.
+                Estoy descubriendo el área donde quiero trabajar, me apasionan cosas diferentes.
+              </p>
+              <p>¿Quieres saber más acerca de mí? <a download href="assets/docum/CV Ferreyra Gaston.pdf">Descargar mi currículum vitae.</a></p>
+          </div>
+          <div class="picture">
+              <img src="assets/img/gaston.jpg" class="picture__profile" alt="Ferreyra Castro Gastón" loading="lazy">
+          </div>
+          <!-- Links -->
+          <div class="links">
+              <p>Contáctame en:</p>
+              <a href="https://www.facebook.com/profile.php?id=100053700782128" class="contact__text" target="_blank">
+                <img src="assets/img/facebook_icon.svg" class="link__ico" alt="Facebook Icon" loading="lazy">
+              </a>
+              <a href="https://github.com/gastonloco" class="contact__text" target="_blank">
+                <img src="assets/img/github_icon.svg" class="link__ico" alt="GitHub Icon" loading="lazy">
+              </a>
+              <a href="https://www.linkedin.com/in/gast%C3%B3n-ferreyra-372486210/" class="contact__text" target="_blank">
+                <img src="assets/img/linkedin_icon.svg" class="link__ico" alt="LinkedIn Icon" loading="lazy">
+              </a>
+          </div>
+      </div>
+      <!-- Projects -->
+      <a name="Projects"></a>
+      <div class="projects">
+          <div class="projects__text">
+              <p class="text__title">Proyectos</p>
+              <p class="text__general">
+                Actualmente estoy trabajando en algunos de estos proyectos, y estoy disponible para trabajar en otros proyectos.
+                Si estás interesado en alguno de ellos o en trabajar conmigo, ponte en contacto conmigo.
+              </p>
+          </div>
+          <div class="projects__apps">
+              <!-- Landing Page, Arduino Day -->
+              <div class="apps__ind">
+                  <div class="app__image">
+                      <img src="assets/img/arduino-day_logo.svg" class="ind-image" alt="Arduino Day 2021" loading="lazy">
+                  </div>
+                  <div class="app__desc">
+                      <a href="https://arduinodayags.com/" class="ind-title" target="_blank">
+                          Arduino Day <br>
+                      </a>
+                          <a href="https://github.com/ElectronicCats/arduino-day-aguascalientes2021" target="_blank"><i class="fab fa-git-alt"></i></a>
+                          <p class="ind-description">Landing page to show the most relevant data about the Arduino day.</p>
+                  </div>
+              </div>
+              <!-- Discord bot -->
+              <div class="apps__ind">
+                  <div class="app__image">
+                      <img src="assets/img/discord-bot_logo.svg" class="ind-image" alt="Discord Bot" loading="lazy">
+                  </div>
+                  <div class="app__desc">
+                      <a href="https://github.com/BeelanMX/scrapCFEBot" class="ind-title" target="_blank">
+                          Discord Bot <br>
+                      </a>
+                          <a href="https://github.com/BeelanMX/scrapCFEBot" target="_blank"><i class="fab fa-git-alt"></i></a>
+                          <p class="ind-description">Bot that collects data from the CFE's page and show it in a message.</p>
+                  </div>
+              </div>
+              <!-- QuickTrips -->
+              <div class="apps__ind">
+                  <div class="app__image">
+                      <img src="assets/img/quick-trips_logo.svg" class="ind-image" alt="Quick Trips" loading="lazy">
+                  </div>
+                  <div class="app__desc">
+                      <a href="https://quick-trips.herokuapp.com/" class="ind-title" target="_blank">
+                          Quick Trips <br>
+                      </a>
+                          <a href="https://github.com/tris460/quickTripsApp" target="_blank"><i class="fab fa-git-alt"></i></a>
+                          <p class="ind-description">University final project to simulate how Uber works (still in progress).</p>
+                  </div>
+              </div>
+              <!-- Personal Portfolio -->
+              <div class="apps__ind">
+                  <div class="app__image">
+                      <img src="assets/img/favicon.svg" class="ind-image" alt="Portfolio" loading="lazy">
+                  </div>
+                  <div class="app__desc">
+                      <a class="ind-title">
+                          This portfolio <br>
+                      </a>
+                          <a href="https://github.com/tris460/BeatrizMartinez" target="_blank"><i class="fab fa-git-alt"></i></a>
+                          <p class="ind-description">Personal portfolio to show my projects to others (still in progress).</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- About -->
+      <a name="About"></a>
+      <div class="about">
+          <div class="projects__text">
+              <p class="text__title">Sobre mi.</p>
+              <p class="text__general">
+                Soy estudiante de Desarrollo de Software Multiplataforma, me encanta programar y aprender cosas nuevas,
+                También me gusta demostrar mis habilidades haciendo cosas diferentes, siempre buscando aprender cosas nuevas,
+
+                  <br>
+                  Mi objetivo es convertirme en un buen desarrollador, conseguir un trabajo y trabajar en lo que disfruto,
+                  poder demostrar todo tipo de objetivos a realizar, no voy a parar hasta que suceda.
+              </p>
+          </div>
+          <div class="about__info">
+              <p class="subtitle">Technologies</p>
+              <div>
+                  <img src="assets/img/html_icon.svg" class="icon" alt="HTML" loading="lazy">
+                  <img src="assets/img/css_icon.svg" class="icon" alt="CSS" loading="lazy">
+                  <img src="assets/img/js_icon.svg" class="icon" alt="JavaScript" loading="lazy">
+                  <img src="assets/img/typescript_icon.svg" class="icon" alt="TypeScript" loading="lazy">
+                  <img src="assets/img/git_icon.svg" class="icon" alt="Git" loading="lazy">
+                  <img src="assets/img/github_icon.svg" class="icon" alt="GitHub" loading="lazy">
+                  <img src="assets/img/angular_icon.svg" class="icon" alt="Angular" loading="lazy">
+                  <img src="assets/img/terminal_icon.svg" class="icon" alt="Terminal" loading="lazy">
               </div>
           </div>
       </div>
   </section>
-  <section id="mensaje">
-      <div class="container">
-          <div class="fila">
-              <div class="columna">
-              <h1>Mensaje</h1>
-              <br><br><br>
-              <a href="#" class="button">Descargar Mensaje</a>
-              </div>
-          </div>
-      </div>
-  </section>
-  <section id="skill">
-      <div class="container">
-          <div class="fila">
-              <div class="columna">
-              <h1>Habilidades</h1>
-              <br>
-              <div class="div_skill1">
-                  <h1>Frontend</h1>
-                  <ul>
-                      <li>
-                          <span class="icono">
-                            <i class="fa-solid fa-radiation"></i>
-                          </span>
-                          <span class="texto">Html</span>
-                      </li>
-                      <li>
-                          <span class="icono">
-                            <i class="fa-solid fa-radiation"></i>
-                          </span>
-                          <span class="texto">CSS</span>
-                      </li>
-                      <li>
-                          <span class="icono">
-                            <i class="fa-solid fa-radiation"></i>
-                          </span>
-                          <span class="texto">JavaScript</span>
-                      </li>
-                      <li>
-                          <span class="icono">
-                            <i class="fa-solid fa-radiation"></i>
-                          </span>
-                          <span class="texto">Jquery</span>
-                      </li>
-                      <li>
-                          <span class="icono">
-                            <i class="fa-solid fa-radiation"></i>
-                          </span>
-                          <span class="texto">Bootstrap</span>
-                      </li>
-
-                      <li>
-                          <span class="icono">
-                            <i class="fa-solid fa-radiation"></i>
-                          </span>
-                          <span class="texto">Angular</span>
-                      </li>
-
-                      <li>
-                          <span class="icono">
-                            <i class="fa-solid fa-radiation"></i>
-                          </span>
-                          <span class="texto">Git / Github</span>
-                      </li>
-                  </ul>
-              </div>
-
-              <div class="div_skill2">
-                  <h1>Backend</h1>
-
-                  <ul>
-                      <li>
-                          <span class="icono">
-                            <i class="fa-solid fa-radiation"></i>
-                          </span>
-                          <span class="texto">NodeJS</span>
-                      </li>
-                      <li>
-                          <span class="icono">
-                            <i class="fa-solid fa-radiation"></i>
-                          </span>
-                          <span class="texto">Express</span>
-                      </li>
-
-                  </ul>
-              </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  <section id="contacto">
-      <div class="container">
-          <div class="fila">
-              <div class="columna">
-              <h1>Contacto</h1>
-              <br><br><br>
-              <form action="">
-
-                  <label for="username">Nombre: </label>
-                  <input type="text" id="nombre" name="nombre" required>
-
-                  <label for="username">Apellido: </label>
-                  <input type="text" id="apellido" name="apellido" required>
-
-                  <label for="phone">Cel: </label>
-                  <input type="tel" id="phone" name="phone"
-                  placeholder="351-4567825"
-                  pattern="[0-9]{3}-[0-9]{7}">
-
-                  <label for="datemax">Edad: </label>
-                  <input type="date" id="datemax" name="datemax" max="2000-12-31"><br><br>
-
-                  <label for="sexo">Sexo: </label>
-                  <select id="sexo" name="sexo">
-                  <option value="-"></option>
-                  <option value="hombre">M</option>
-                  <option value="femenino">F</option>
-                  </select>
-
-
-
-                  <a href="#" class="button">Enviar</a>
-              </form>
-
-              </div>
-          </div>
-      </div>
-  </section>
-</main>
-
-
+</div>

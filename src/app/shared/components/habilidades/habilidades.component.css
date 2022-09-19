@@ -1,3 +1,123 @@
-h1{
-  color: #fff;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.no-underline {
+  text-decoration: none;
+}
+
+.about {
+  height: auto;
+}
+.subtitle {
+  font-size: 24px;
+}
+.about__info {
+  margin: 30px;
+}
+.icon {
+  max-height: 70px;
+  margin: 10px;
+}
+@media screen and (max-width: 915px) {
+  .subtitle {
+      font-size: 22px;
+  }
+  .about {
+      margin-bottom: 15vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .subtitle {
+      font-size: 18px;
+  }
+}
+
+.projects {
+  height: auto;
+}
+.projects__text{
+  margin: 30px;
+}
+.text__title {
+  height: 10vh;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid var(--menu-color);
+}
+.text__general {
+  font-size: 20px;
+}
+.projects__apps {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.apps__ind {
+  border: 1px solid var(--black);
+  border-radius: 10px;
+  background-color: var(--menu-color);
+  padding: 20px;
+  margin: 10px;
+  max-height: 150px;
+  text-align: center;
+  display: flex;
+  flex-basis: 330px;
+  flex-grow: 1;
+}
+.ind-title {
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-size: 22px;
+}
+.ind-description {
+  text-align: justify;
+  font-size: 18px;
+}
+.app__image {
+  width: 40%;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 200px;
+  max-height: 150px;
+}
+.ind-image {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+.app__desc {
+  margin-left: 30px;
+}
+.fa-git-alt {
+  display: block;
+  font-size: 25px;
+  padding: 5px;
+}
+@media screen and (max-width: 615px) {
+  .projects {
+      height: auto;
+  }
+  .text__title {
+      font-size: 32px;
+  }
+  .text__general, .ind-title {
+      font-size: 18px;
+  }
+  .ind-description {
+      font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .text__title {
+      font-size: 30px;
+  }
+  .text__general, .ind-title {
+      font-size: 15px;
+  }
+  .ind-description {
+      font-size: 13px;
+  }
 }

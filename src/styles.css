@@ -11,6 +11,9 @@
   --clr-navbar: #F5F0BB;
   --clr-icon: #916BBF;
   --color-cuerpo: #3D2C8D;
+  --black: #916BBF;
+  --menu-color: #dfeaf6;
+  --main-text-color: #F5F0BB;
 }
 
 body{
@@ -24,3 +27,10 @@ body{
 a{
   display: inline-block; /* para que me respete el ancho del height*/
 }
+
+p {
+  color: var(--main-text-color);
+}
+
+
+
