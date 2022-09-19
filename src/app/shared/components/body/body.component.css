@@ -140,7 +140,7 @@ height: calc(100% + 27px);
 
 
 .main {
-  grid-column: 3/-1;
+  grid-column: 2/-1;
 }
 .home {
   height: 100vh;
