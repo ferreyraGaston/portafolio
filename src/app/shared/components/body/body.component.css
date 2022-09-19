@@ -188,13 +188,30 @@ height: calc(100% + 27px);
 .links {
   grid-column: 1/-1;
   text-align: center;
-  margin-top: auto;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .link__ico {
   height: 70px;
   width: 70px;
+  padding: 10px;
 }
+.ico1:hover {
+  height: 80px;
+  width: 180px;
+  padding: 0px;
+}
+.ico2:hover {
+  height: 80px;
+  width: 180px;
+  padding: 0px;
+}
+.ico3:hover {
+  height: 80px;
+  width: 180px;
+  padding: 0px;
+}
+
 @keyframes typing {
   from {
     width: 0
