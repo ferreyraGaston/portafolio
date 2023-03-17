@@ -155,7 +155,7 @@ section .title::after {
 
 .navbar .menu li .cambio:hover {
     background: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
-    transform: scale(1.5);
+    transform: scale(1.3);
     padding: 5px;
     text-decoration: none;
     justify-content: center;
